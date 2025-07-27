@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+   
+   
+}
+
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 480px;
+    
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 47px 20px;
+   
+  
+}
+
+.nav-items ul li{
+    list-style: none;
+    
+
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: white;
+    top: 20px;
+   
+}
+
+.search{
+    
+   
+    width: 100%;
+    height: 100%;
+    line-height: 2px;
+    margin: 40px;
+    
+}
+
+.hero-section-image {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+
+}
+
+.hero-section-image img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+
+.shop-image{
+    margin-top: 20px;
+}
+
+.shop-image img{
+    height: 140px;
+}
+
+
+
+
+
+.sale-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+.sale-card h3{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.product-container{
+    display: flex;
+    /* overflow-x: ; */
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.product-card{
+    /* background: #333;
+    flex:0 0 ;
+    width: 188px;
+    height: 190px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    padding: 10px; */
+    width: 350px;
+   
+
+}
+
+.product-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3px;
+
+}
+
+.product-title{
+    font-size: 18px;
+}
+
+.product-price{
+    font-size: 14px;
+}
+
+.product-old-price{
+    font-size: 14px;
+    text-decoration: line-through   ;
+}
+
+.categories-container{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.categories-card{
+    width: 200px;
+}
+
+.categories-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid wheat;
+}
